@@ -4,6 +4,3 @@ This repo is a tool to search for similar secondary metabolites against the [MIB
 To use the code immediatly use jupyter notebook implemented in binder by clicking the badget below.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/phillipschl/MIBiG_similarity_search.git/HEAD)
-
-## Usage of cacluate_dist.ipynb
-
