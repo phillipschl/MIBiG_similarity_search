@@ -1,0 +1,3 @@
+[submodule "map4"]
+	path = map4
+	url = https://github.com/reymond-group/map4.git
