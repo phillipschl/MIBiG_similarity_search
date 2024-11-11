@@ -11,9 +11,9 @@ Both methods aim to assist in the analysis and discovery of structurally and fun
 ## Structural Similarity Search
 ### Usage
 
-This repo contains two jupyter notebooks:
-  - `calculate_dist.ipynb`: notebook to calculate similarities against the MIBiG database. After defining the input SMILES and output file name hit `Run` > `Run all`. 
-  - `draw_structures.ipynb`: additional notebook to draw the molecules from the output `csv` file from `calculate_dist.ipynb`. Just define the filename of the output `csv` and run the cells. The output will be a grid view with the molecular structures annotated by the MIBiG accesion ID and the calculated Jaccard distance.
+This tool consists of two jupyter notebooks:
+  1. `calculate_dist.ipynb`: notebook to calculate similarities against the MIBiG database. After defining the input SMILES and output file name hit `Run` > `Run all`.
+  2. `draw_structures.ipynb`: additional notebook to draw the molecules from the output `csv` file from `calculate_dist.ipynb`. Just define the filename of the output `csv` and run the cells.
 
 ### Output
 
@@ -35,6 +35,9 @@ The `calculate_dist.ipynb` notebook outputs a table with all sorts of informatio
   - `isPeptide`: wheter the molecule is a peptide
   - `hasSugar`: wheter the molecule has a sugar moiety
   - `distance`: calculated Jaccard distance
+
+The output of the `draw_structures.ipynb` will be a grid view with the molecular structures annotated by the MIBiG accesion ID and the calculated Jaccard distance.
+
 
 ## Protein Sequence Similarity Search
 
