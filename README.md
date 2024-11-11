@@ -1,7 +1,7 @@
 # Structural and Sequence Similarity Search against MIBiG
 
 This repository implements two similarity search techniques for bioinformatics:
-  - **Structural Similarity Search**: Utilizes the [MAP4](https://github.com/reymond-group/map4) fingerprint method to perform structural similarity comparisons between molecules.
+  - **Structural Similarity Search**: Perform structural similarity comparisons between molecules. It calulates the [MAP4](https://github.com/reymond-group/map4) fingerprint from a SMILES string of a given input molecule and calculates the Jaccard distance to molecules found in the MIBiG database
   - **Protein Sequence Similarity Search**: Uses [blastp](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-421) to compare protein sequences against the MIBiG database, enabling the identification of biologically relevant homologs.
 
 Both methods aim to assist in the analysis and discovery of structurally and functionally similar compounds and protein sequences. For easy use of the code the jupyter notebook are implemented in binder. You can use it by clicking the badget below:
